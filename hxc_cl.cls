@@ -65,13 +65,13 @@
 \pagestyle{fancy}
 \lhead[\scshape\@author]{\scshape\@title}
 \rhead[\scshape\@title]{\scshape\@author}
-\chead[\begin{picture}(0,0) \put(0,0){\includegraphics[width=5cm]{banner_s}} \end{picture}\\ www.hackxcrack.net]{\begin{picture}(0,0) \put(-0.47,0.01){\includegraphics[width=5cm]{banner_s}} \end{picture} \\ www.hackxcrack.net\vspace{0.5cm}}
+%\chead[\begin{picture}(0,0) \put(0,0){\includegraphics[width=5cm]{banner_s}} \end{picture}\\ www.hackxcrack.net]{\begin{picture}(0,0) \put(-0.47,0.01){\includegraphics[width=5cm]{banner_s}} \end{picture} \\ www.hackxcrack.net\vspace{0.5cm}}
 
 \def\@maketitle{%
   \end{multicols}
-  \begin{picture}(0,0)\put(-0.525,-0.1){\includegraphics[width=210mm]{banner}}\end{picture}
-  \null
-  \vspace*{1cm}%
+  %\begin{picture}(0,0)\put(-0.525,-0.1){\includegraphics[width=210mm]{banner}}\end{picture}
+  %\null
+  \vspace*{-1cm}%
   \begin{center}%
   \let \footnote \thanks
     {\Huge {\color{TitleColor}\textbf{\scshape\@title}} \par}%
@@ -133,5 +133,9 @@
 \AfterEndEnvironment{resumen}{\begin{multicols}{2}}
 
 \AtBeginDocument{\begin{multicols}{2}}
-\AtEndDocument{\end{multicols}}
+\AtEndDocument{
+\section{Cuadernos}
+Este cuaderno pertenece a un conjunto de cuadernos escritos de forma colaborativa. La iniciativa de este proyecto es de la comunidad HackXCrack, y el resto de cuadernos, junto con material para su creación, se encuentra en el repositorio de \texttt{github: https://github.com/HackXCrack/fennix}
+\end{multicols}
+}
 \endinput
