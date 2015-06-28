@@ -6,4 +6,5 @@
 \contentsline {section}{\numberline {5}Cuidados a tener en cuenta}{7}
 \contentsline {section}{\numberline {6}Algunos usos}{8}
 \contentsline {subsection}{\numberline {6.1}Pasar argumentos por referencia. (Sólo en C, no en C++)}{8}
-\contentsline {subsection}{\numberline {6.2}Recorrer arrays}{9}
+\contentsline {subsection}{\numberline {6.2}Recorrer arrays}{8}
+\contentsline {section}{\numberline {7}Cuadernos}{9}
