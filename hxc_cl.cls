@@ -97,7 +97,7 @@
 \titleformat{\subsection}[hang]{\large\bf\scshape\color{TitleColor}}{\thesubsection.}{1em}{}
 \titleformat{\subsubsection}[hang]{\normalsize\bf\scshape\color{TitleColor}}{\thesubsubsection.}{1em}{}
 
-\setmainfont[Ligatures=TeX,Path = /usr/share/fonts/opentype/,BoldFont =FiraSans-Medium.otf,ItalicFont = FiraSans-LightItalic.otf, BoldItalicFont  = FiraSans-MediumItalic.otf]{FiraSans-Light.otf}
+\setmainfont[Ligatures=TeX,Path = fonts/,BoldFont =FiraSans-Medium.otf,ItalicFont = FiraSans-LightItalic.otf, BoldItalicFont  = FiraSans-MediumItalic.otf]{FiraSans-Light.otf}
 \newcommand{\subtitle}[1]{%
   \posttitle{%
     \par\end{center}
