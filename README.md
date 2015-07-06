@@ -15,10 +15,10 @@ Notas
 
 Estructura de los libros
 ------------------------
-El archivo de clase es hxc_cl.cls, por lo que debe usarse como documento de clase. El documento debe tener la estructura siguiente:
+El archivo de clase es fennix_cl.cls, por lo que debe usarse como documento de clase. El documento debe tener la estructura siguiente:
 
 ```TeX
-\documentclass{hxc_cl}
+\documentclass{fennix_cl}
 
 \begin{document}
 
