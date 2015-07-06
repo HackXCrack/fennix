@@ -15,7 +15,7 @@ Notas
 
 Estructura de los libros
 ------------------------
-El archivo de clase es fennix_cl.cls, por lo que debe usarse como documento de clase. El documento debe tener la estructura siguiente:
+El archivo de clase es fennix.cls, por lo que debe usarse como documento de clase. El documento debe tener la estructura siguiente:
 
 ```TeX
 \documentclass{fennix_cl}
@@ -52,7 +52,7 @@ El entorno "requisitos" ya incluye el índice, no hace falta incluir un \tableof
 
 En el archivo plantilla/plantilla.tex se encuentra lo anterior para poder empezar a escribir.
 
-El archivo ejemplo/prueba.tex es mi cuaderno original sobre punteros reescrito en parte mediante latex. Contiene tablas, trozos de código, secciones, subsecciones, etc. por lo que puede servir como referencia para algunas cosas básicas. La versión compilada es ejemplo/prueba.pdf.
+El archivo ejemplo/prueba.tex es el cuaderno original de piou sobre punteros reescrito en parte mediante latex. Contiene tablas, trozos de código, secciones, subsecciones, etc. por lo que puede servir como referencia para algunas cosas básicas. La versión compilada es ejemplo/prueba.pdf.
 
 Compilacion de un libro
 -----------------------
