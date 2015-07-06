@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{hxc_cl}[2011/12/23 My Class]
+\ProvidesClass{fennix_cl}[2011/12/23 My Class]
 
 %% Article options
 \DeclareOption{10pt}{
