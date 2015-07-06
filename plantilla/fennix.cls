@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{hxc_cl}[2011/12/23 My Class]
+\ProvidesClass{fennix}[2015/06/06 fennix Class]
 
 %% Article options
 \DeclareOption{10pt}{
@@ -138,6 +138,7 @@
         {\color{TitleColor}\scshape \bf Colaboradores:} \\
         Lista de colaboradores de este documento, en orden cronológico:
       \begin{multicols}{2}
+      	\scriptsize
         \BODY
         \end{multicols}
       \end{minipage}
