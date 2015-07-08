@@ -24,8 +24,8 @@
 \LoadClass[11pt,a4paper]{article}
 
 %% No incluir estos paquetes en el documento .tex
-%\RequirePackage[utf8]{inputenc}
-\RequirePackage[spanish,es-tabla]{babel}
+\RequirePackage[latin1]{inputenc}
+%\RequirePackage[spanish,es-tabla]{babel}
 \RequirePackage{multicol}
 \RequirePackage[left=3cm,right=3cm]{geometry}
 \RequirePackage{titling}
@@ -40,6 +40,12 @@
 \RequirePackage{environ}
 \RequirePackage{tikz}
 \RequirePackage{pgf}
+\RequirePackage[font={small}]{caption}
+
+%Títulos para no usar babel (problemas con tikz)
+\renewcommand{\contentsname}{Índice}
+\renewcommand{\figurename}{Figura}
+\renewcommand{\tablename}{Tabla}
 
 %%Opciones de paquetes superiores:
 \setlength{\columnseprule}{0.4pt}
@@ -47,6 +53,7 @@
 \setlength{\unitlength}{5cm}
 
 \usetikzlibrary{arrows,automata,positioning}
+%\spanishdeactivate{<,>}
 
 \definecolor{TitleColor}{RGB}{71,61,139}
 \definecolor{BGColor}{RGB}{202,199,230}
