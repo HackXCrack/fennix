@@ -27,7 +27,7 @@
 \RequirePackage[latin1]{inputenc}
 %\RequirePackage[spanish,es-tabla]{babel}
 \RequirePackage{multicol}
-\RequirePackage[left=3cm,right=3cm]{geometry}
+\RequirePackage[left=3cm,right=3cm,bottom=4cm]{geometry}
 \RequirePackage{titling}
 \RequirePackage{titlesec}
 \RequirePackage[xetex]{graphicx}
@@ -98,6 +98,11 @@
 }
 
 %Definición de cabeceras de secciones
+\titleformat{\part}[display]
+   {\LARGE\bf\scshape\centering\color{TitleColor}}
+   {Parte \thepart}
+   {0em}
+   {}
 \titleformat{\section}[hang]{\Large\bf\scshape\color{TitleColor}}{\thesection.}{1em}{}
 \titleformat{\subsection}[hang]{\large\bf\scshape\color{TitleColor}}{\thesubsection.}{1em}{}
 \titleformat{\subsubsection}[hang]{\normalsize\bf\scshape\color{TitleColor}}{\thesubsubsection.}{1em}{}
