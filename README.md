@@ -14,7 +14,7 @@ Notas
 ------
 * Cuidar mínimamente la ortografía y evitar el uso de emoticonos
 * Los commits deben ser específicos
-* Estrcturar los textos en varios archivos latex
+* Estructurar los textos en varios archivos latex
 * Usar la plantilla de la carpeta "plantilla"
 
 Estructura de los libros
@@ -69,3 +69,5 @@ Para compilar el documento (obligatorio usar XeLaTeX, no LaTeX ni pdfLaTeX):
  ``xelatex archivo.tex``
 
 Creará el archivo archivo.pdf
+
+Si se quiere se puede usar *texstudio* como IDE de latex.
