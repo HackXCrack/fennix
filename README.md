@@ -3,19 +3,12 @@ fennix
 
 El objetivo de este proyecto es el de crear material de la mayor calidad posible de forma colaborativa.
 
-Hoy en día cada foro y comunidad de seguridad crea su propio material, muchas veces ese material no esta completo del todo, es muy básico, y con faltas ortográficas.
-Con el propósito de cambiar esto nació este proyecto, pero para eso necesitábamos que los usuarios pudieran colaborar activamente, por eso que decidimos usar github para que cualquier usuario de cualquier lugar, no solo de Hack x Crack (foro de donde salio este proyecto originalmente) pueda proponer cambios o correcciones al material.
+Hoy en día cada foro y comunidad de seguridad crea su propio material, muchas veces ese material no esta completo del todo, es muy básico, y esta mal redactado.
+Con el propósito de cambiar esto nació este proyecto, para que cualquier usuario (no solo de HxC foro donde nacio este proyecto) pudiera colaborar y crear contenido de forma distribuida y organizada.
 
-Para los nuevos textos se debera clonar la branch "develop", crear la carpeta del nuevo texto y cuando este completo mandar una pull request. En la branch master en principio no se aceptaran pull request.
+Para los detalles entrar a la [wiki](https://github.com/HackXCrack/fennix/wiki)
 
-Creamos el canal IRC #fennix en freenode (irc.freenode.net) para discutir la organización del proyecto
-
-Notas
-------
-* Cuidar mínimamente la ortografía y evitar el uso de emoticonos
-* Los commits deben ser específicos
-* Estructurar los textos en varios archivos latex
-* Usar la plantilla de la carpeta "plantilla"
+Entrar al canal IRC #fennix en freenode (irc.freenode.net) para discutir sobre el proyecto
 
 Estructura de los libros
 ------------------------
@@ -60,14 +53,8 @@ El archivo ejemplo/prueba.tex es el cuaderno original de piou sobre punteros ree
 
 Compilacion de un libro
 -----------------------
-Para compilar hace falta tener instalada una distribución completa de LaTeX. Los repositorios Linux suelen contener el paquete texlive-full que incluye todo lo necesario. En sistemas con apt:
-
- ``sudo apt-get install texlive-full``
-
 Para compilar el documento (obligatorio usar XeLaTeX, no LaTeX ni pdfLaTeX):
 
  ``xelatex archivo.tex``
 
 Creará el archivo archivo.pdf
-
-Si se quiere se puede usar *texstudio* como IDE de latex.
